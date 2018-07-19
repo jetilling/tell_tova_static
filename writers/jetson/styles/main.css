@@ -1,0 +1,75 @@
+.navbar {
+  background: url('../../../assets/images/cats.jpg');
+  background-position: 50px;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #999;
+  z-index: 1;
+  height: 5vh;
+  width: 100vw;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.title-elements {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 75px;
+  font-family: 'Cutive Mono', monospace;
+  color: #414C4B;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-family: 'Cutive Mono', monospace;
+  color: #414C4B
+}
+
+.links {
+  margin-bottom: 75px;
+}
+
+.links a {
+  font-size: 25px;
+  font-family: 'Questrial', sans-serif;
+  margin: 10px;
+}
+
+.authStuff {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
