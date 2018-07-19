@@ -35,7 +35,9 @@
 .title {
   font-size: 75px;
   font-family: 'Cutive Mono', monospace;
-  color: #414C4B
+  color: #414C4B;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .subtitle {
